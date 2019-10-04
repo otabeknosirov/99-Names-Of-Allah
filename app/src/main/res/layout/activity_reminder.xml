@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#1976D2"
+    >
+
+    <TextView android:layout_width="288dp"
+              android:layout_height="453dp"
+              android:text="ESLATMA:1)Ikki alifboda ham, o'rtada chiziqsiz yozing, masalan: Ar-Rohman o'rniga Ar Rohman yozilsin. 2)Kirill alifbosida tartibi quyidagicha,masalan: 1) ъ o'rniga ' belgisi 2) Ҳ o'rniga X 3) Қ o'rniga K 4) Ғ o'rniga Г' misol tariqasida: АЪЛО so'zi bu joyda А'ЛО so'ziga teng 3) Sovg'a olish tugmasi,faqat 99ta ism to'liq yozilib bo'lgandan keyingina ishga tushadi.Ism to'ldirayotganda har xil qo'llanmalar ishlatish mumkin emas
+
+                      Muallif: Otabek Nosirov"
+              android:layout_margin="16dp"
+
+              android:textColor="#fff"
+    />
+
+
+</LinearLayout>

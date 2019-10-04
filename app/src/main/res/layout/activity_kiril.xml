@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#69F0AE"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_margin="20dp"
+            android:text="Жами: 0"
+            android:textSize="16sp"
+            android:textColor="#113D06"
+            android:textStyle="bold"
+            />
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/presentButton"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:onClick="callForPresent"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:layout_margin="20dp"
+            fancy:fb_borderColor="#81C784"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#00695C"
+            fancy:fb_focusColor="#2E7D32"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="11dp"
+            fancy:fb_text="совг'а тугмасини босинг"
+            fancy:fb_textColor="#ffebee"
+            />
+
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchContainer"
+        android:layout_margin="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"
+            android:hint="Аллохни исмини езинг..."
+            android:textColorHint="#212121"
+            android:background="#B2EBF2"
+            android:layout_marginBottom="10sp"
+            android:textStyle="italic"
+            />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/checkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right|bottom"
+            android:layout_margin="16dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#1B5E20"
+            fancy:fb_focusColor="#2E7D32"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="300dp"
+            fancy:fb_text="Бисмиллах"
+            fancy:fb_textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
